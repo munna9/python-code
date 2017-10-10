@@ -1,0 +1,3 @@
+import sqllite3
+db = sqllite3.connect(database.db)
+db.execute(create table person('name','age','sex','dob'))
